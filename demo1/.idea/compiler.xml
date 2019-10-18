@@ -8,16 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo1" />
         <module name="eureka1" />
+        <module name="ribbon1" />
+        <module name="ribbon2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo1" target="1.5" />
       <module name="eureka1" target="1.8" />
+      <module name="ribbon1" target="1.8" />
+      <module name="ribbon2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka1" options="-parameters" />
+      <module name="ribbon1" options="-parameters" />
+      <module name="ribbon2" options="-parameters" />
     </option>
   </component>
 </project>

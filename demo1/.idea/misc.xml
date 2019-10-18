@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka1/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon1/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon2/pom.xml" />
       </list>
     </option>
   </component>
