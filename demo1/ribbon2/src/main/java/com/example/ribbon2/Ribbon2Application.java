@@ -7,6 +7,9 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+import java.sql.Connection;
+import java.util.concurrent.ThreadPoolExecutor;
+
 @SpringBootApplication
 @EnableDiscoveryClient
 public class Ribbon2Application {
@@ -19,6 +22,9 @@ public class Ribbon2Application {
     RestTemplate restTemplate(){
 
         return new RestTemplate();
+        new ThreadPoolExecutor();
+        Connection;
+
     }
 
 }
